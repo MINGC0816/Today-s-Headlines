@@ -8,7 +8,7 @@ AI_CHAT_CONFIG = {
     ).rstrip("/") + "/chat/completions",
     "api_key": os.getenv(
         "DASHSCOPE_API_KEY",
-        "sk-8b2c0bd5d1214cffb84976ed048c346c",
+        "",
     ),
     "model": os.getenv("DASHSCOPE_MODEL", "qwen3.5-plus"),
     "stream": True,
